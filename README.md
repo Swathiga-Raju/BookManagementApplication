@@ -4,7 +4,7 @@
 - This project demonstrates basic CRUD operations: Create, Read, Update, Delete.
 
 **Project Name**
-Book Management System – Spring Boot CRUD
+Book Management Application – Spring Boot CRUD
 
 **Features**
 - Add a new book
@@ -36,7 +36,7 @@ Install the following:
 - Java 17 or above
 - Maven 3+
 - MySQL Server
-- IDE (IntelliJ, Eclipse, or VS Code)
+- IDE (Eclipse)
 
 **Installation Steps**
 
@@ -66,6 +66,7 @@ POST /books/add
 
 **Body:**
 {
+  "id": 1
   "title": "Java Programming",
   "author": "James Gosling",
   "price": 499.0
@@ -80,6 +81,7 @@ PUT /books/update/{id}
 
 Body:
 {
+  "id": 1
   "title": "Advanced Java",
   "author": "James Gosling",
   "price": 699.0
