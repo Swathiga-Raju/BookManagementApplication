@@ -69,7 +69,7 @@ POST /books/add
   "id": 1
   "title": "Java Programming",
   "author": "James Gosling",
-  "price": 499.0
+  "price": 499.0 
 }
 Get All Books
 GET /books/all
